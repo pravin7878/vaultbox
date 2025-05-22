@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import VaultEntryForm from "./VaultEntryForm";
+import VaultEntryForm from "./vaultEntryForm";
 
 export default function VaultDashboard({ onAddEntry }) {
   const [showForm, setShowForm] = useState(false);

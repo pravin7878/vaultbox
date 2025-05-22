@@ -6,7 +6,7 @@ export default function LoginForm({ onLogin, loading }) {
 
   const handleSubmit = e => {
     e.preventDefault();
-    onLogin({ email, password });
+    // onLogin({ email, password });
   };
 
   return (
